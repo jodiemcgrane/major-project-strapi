@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "journals",
+  "info": {
+    "name": "journal",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true,
+      "unique": true
+    },
+    "assignment": {
+      "via": "journals",
+      "model": "assignment"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "journals"
+    },
+    "submitted": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}

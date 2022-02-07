@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_description_assignment_descriptions",
+  "info": {
+    "name": "assignment_description",
+    "icon": "angle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    }
+  }
+}
