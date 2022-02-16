@@ -2,7 +2,7 @@ module.exports = {
   settings: {
     cors: {
       enabled: true,
-      origin: ["*"],
+      origin: ["http://localhost:8000", "http://localhost", "*"],
       headers: ["*"],
     },
   },
