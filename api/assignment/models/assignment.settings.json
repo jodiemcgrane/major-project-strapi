@@ -33,6 +33,10 @@
     },
     "introduction": {
       "type": "text"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
