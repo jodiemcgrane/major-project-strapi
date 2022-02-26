@@ -31,9 +31,6 @@
       "component": "description.assignment-description",
       "required": true
     },
-    "information": {
-      "type": "richtext"
-    },
     "introduction": {
       "type": "text"
     },
