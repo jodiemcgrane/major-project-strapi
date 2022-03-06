@@ -41,7 +41,8 @@
       "default": false
     },
     "about": {
-      "type": "text"
+      "type": "text",
+      "required": true
     }
   }
 }
