@@ -1,3 +1,7 @@
+# Major Project
+
 # Strapi application
 
-A quick description of your strapi application
+# Internport
+
+The backend functionalities of the Internport application using the headless CMS, Strapi!
